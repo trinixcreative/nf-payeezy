@@ -47,6 +47,8 @@ function processData($data){
 }
 
 function purchase($data){
+    global $payeezy;
+
     $primaryTxResponse_JSON = json_decode($payeezy->purchase(processData($data)));
     return $primaryTxResponse_JSON->transaction_status;
 }
