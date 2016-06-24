@@ -80,6 +80,6 @@ function ninja_forms_payment_form_process($field_id, $user_value){
 
 	if(!$ninja_forms_processing->get_all_errors()){
 		$status = purchase($data);
-		$ninja_forms_processing->update_field_value($field_id, $status." $".$origAmount." ".$data['name']);
+		$ninja_forms_processing->update_field_value($field_id, " $".$origAmount." changed to ".$data['name']." [".$status."]");
 	}
 }
