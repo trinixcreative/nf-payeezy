@@ -3,7 +3,7 @@
 Plugin Name: Ninja Forms - Payeezy
 Plugin URI: http://trinixcreative.com
 Description: Payeezy add-on for Ninja Forms.
-Version: 1.2.1
+Version: 1.5
 Author: TrinixCreative
 Author URI: http://trinixcreative.com/
 */
